@@ -48,6 +48,8 @@
     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../view/img/capa.jpg);
     margin-bottom: 1.5rem;
   }
+
+
   
   *{
     margin: 0;
@@ -69,8 +71,6 @@
     width: 50%;  
     padding: 2rem;
   }
-
-
   
   #slider div:not(:first-child){
   opacity: 0; 
@@ -105,15 +105,8 @@
     padding: 2rem;
     margin-top: 8rem;
     background: #fff;
-    margin-bottom: 0;
   }
   
-  .bg-c{
-    background: var(--cinza);
-  }
-  .atualizacoes{
-    margin: 0 auto;
-  }
   
   #desc-img{
     width: 350px;
@@ -147,8 +140,17 @@
     color: var(--white);
   }
 
+  .fv{
+    background: linear-gradient(rgba(23,154,148,0.2),rgba(23,154,148,0.2));
+  }
+  
+
   .fc{
     background: linear-gradient(rgba(240, 239, 239,0.5),rgba(240, 239, 239,0.5));
+  }
+
+  .bg-c{
+    background: var(--cinza);
   }
 
 
@@ -161,7 +163,6 @@
     color: #000;
     width: 65%;
     font-weight: 450;
-    margin: 0 auto;
   }
  /*SOBRE*/
 
@@ -196,10 +197,6 @@
   .servTxt p{
     color: var(--cinza-escuro);
     margin-top: 2rem;
-  }
-
-  .fv{
-    background: linear-gradient(rgba(23,154,148,0.2),rgba(23,154,148,0.2));
   }
   
   @media (min-width: 720px) {
@@ -299,7 +296,6 @@
   .blog2 p{
     font-size: 20px;
     width: 80%;
-    margin: 0 auto;
   }
   
   .blog2 img{
@@ -326,6 +322,8 @@
   }
     /*BLOG 2*/ 
 
+
+
     /*CONTATO*/
   .formulario{
     background: linear-gradient(rgba(23,154,148,0.1),rgba(23,154,148,0.1));
@@ -333,7 +331,6 @@
   
   .formulario form{
     width: 70%;
-    margin: 0 auto; 
     padding: 3rem;
   }
   
@@ -375,7 +372,6 @@
   .footer p{
     color: var(--white);
     width: 50%;
-    margin: 0 auto;
     font-weight: 450; 
   }
   
