@@ -68,7 +68,7 @@
                 <a class="botão" href="#blog">Contate-nos aqui</a>
               </div>           
             </div>
-      </div>
+        </div>
 
       <!-- Seção HOME-->
       <div id="home">
@@ -166,7 +166,7 @@
         <div class="descSobre text-center m-auto">
           <h2 class="tituloPage">Odontologia Cassaro</h2>
           <hr style="width: 80%; height: 1px; background: #179a94; margin: 0 auto; margin-top: 2rem;">
-          <p class="mt-4">A Odontologia Cassaro é uma clínica odontológica que renova a auto estima e devolve a alegria de sorrir de seus clientes, 
+          <p class="mt-4 mx-auto">A Odontologia Cassaro é uma clínica odontológica que renova a auto estima e devolve a alegria de sorrir de seus clientes, 
           através do planejamento, personalização e atuação nas necessidades individuais de cada pessoa que nos confia sua saúde.</p>
         </div>
 
@@ -223,6 +223,7 @@
                     </div>
                 </div>
               </div>
+              
               <div class="box-blog bordaInferior d-flex justify-content-center mt-1">
                 <div class="blog-informacoes d-flex flex-wrap justify-content-center">
                     <div>
@@ -240,6 +241,7 @@
                     </div>
                 </div>
               </div>
+
                <div class="rol container-fluid d-flex flex-column">
                  <div class="rol2 d-flex justify-content-end">
                   <nav class="mt-5" aria-label="...">
@@ -402,8 +404,9 @@
                   </div>
                   <div class="servTxt">
                     <h4 class="text-justify">Ortodontia</h4>
-                    <p class="text-justify">A ortodontia, com os aparelhos dentais atuais, é uma das melhores alternativas para corrigir dentes tortos, fora de posição,
-                          dentes com diastemas, prevenir bruxismo e corrigir as mordidas erradas.</p>
+                    <p class="text-justify">A ortodontia, com os aparelhos dentais atuais, 
+                      é uma das melhores alternativas para corrigir dentes tortos, fora de posição,
+                      dentes com diastemas, prevenir bruxismo e corrigir as mordidas erradas.</p>
                   </div>
                 </div>
               </div>
@@ -411,48 +414,39 @@
         </div>
 
 
-      <!--Seçã Contato-->
+      <!--Seção Contato-->
       <div id="contato">
         <h2 class="tituloPage d-flex justify-content-center text-center mb-5 ">Tire suas dúvidas, entre em contato conosco.</h2>
-       <div class="formulario">
-          <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="name" class="form-control" id="validationDefault01" placeholder="Nome">
-                <div class="invalid-feedback">
-                  Nome é obrigatório.
+        <div class="formulario mt-5">
+            <form class="mx-auto">
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Nome" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Email" required>
                 </div>
               </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" id="inputGroupPrepend2" placeholder="Email">
-                <div class="invalid-feedback">
-                  E-mail é obrigatório.
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" id="validationDefault03" placeholder="Celular" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Telefone" required>
                 </div>
               </div>
+              <div class="form-row mt-4_5">
+                <div class="col-md-12">
+                <textarea class="form-control" id="validationDefault05" placeholder="Digite aqui sua mensagem" rows="3"></textarea>
+                </div>
+              </div>
+              <div class="container-fluid d-flex flex-column">
+                <div class="d-flex justify-content-end mt-4_5">
+                  <button class="btn bv fw " type="submit">Submit form</button>
+                </div>
+              </div>
+              </form>
             </div>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="tel" class="form-control" id="validationDefault02" placeholder="Telefone">
-                <div class="invalid-feedback">
-                  Telefone é obrigatório.
-                </div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="tel" class="form-control" id="validationDefault03" placeholder="Celular">
-                <div class="invalid-feedback">
-                  Celular é obrigatório.
-                </div>
-              </div>
-            </div>
-            <div class="form-group mt-4_5">
-              <textarea class="form-control" id="validationDefault04" olaceholder=" Digite aqui sua mensagem" rows="3"></textarea>
-              <div class="invalid-feedback">
-                Informe sua mensagem.
-              </div>
-            </div>
-            <button type="submit" class="btn bv fw d-flex justify-content-end icons">Enviar</button>
-          </form>
-        </div>
         <hr class="mt-4_5 bv" style="width: 70%; height: 2.5px; margin: 0 auto;">
         <h2 class="tituloPage d-flex justify-content-center">Encontre-nos.</h2>
         <div class="mapa d-flex justify-content-center container-fluid p-6"> 
@@ -466,9 +460,9 @@
       <div class="container-fluid d-flex flex-column footer">
         <img class="logo" src="img/logo.png" alt="">
           <div>
-            <p class="text-center">Av. Sete de Setembro, 765 - Caarapo/MS</p>
-            <p  class="text-center">Segunda-Quinta: 8h às 12h / 14h às 18h. Sexta-feira: 8h às 12h.</p>
-            <p  class="text-center">(67) 99995-8077</p>
+            <p class="text-center mx-auto">Av. Sete de Setembro, 765 - Caarapo/MS</p>
+            <p class="text-center mx-auto">Segunda-Quinta: 8h às 12h / 14h às 18h. Sexta-feira: 8h às 12h.</p>
+            <p class="text-center mx-auto">(67) 99995-8077</p>
           </div> 
           <div class=" d-flex justify-content-end icons">
             <img class="p-2" src="img/facebook.png" alt="">
