@@ -5,11 +5,6 @@
   */
 
 
-
- function nova() {
-  window.location.href = 'a';
-}
-
 /*SLIDE*/
   var slider = document.querySelector('#slider');
   var textos = slider.querySelectorAll('.transi');
