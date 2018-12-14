@@ -30,10 +30,12 @@
  };
  /*SLIDE*/
 
+
+ 
  /* TROCA DE PAGINAS */
   var linksMenu =  document.querySelectorAll('a'); 
   var paginaAtual = '#home';
-  var paginaDesejada = '';  
+  var paginaDesejada = 'a';  
 
   linksMenu.forEach(function(link){ 
     console.log(link);
@@ -49,6 +51,8 @@
     paginaAtual = paginaDesejada;  
   };
 /* TROCA DE PAGINAS */
+
+
 
 /*VALIDAÇÃO DE FORMULÁRIO*/
 (function() {
@@ -67,6 +71,7 @@
   }, false);
 })();
 /*VALIDAÇÃO DE FORMULÁRIO*/
+
 
 
 (function (global, factory) {
