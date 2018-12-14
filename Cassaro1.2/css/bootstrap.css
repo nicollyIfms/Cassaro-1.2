@@ -4,17 +4,22 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
- @import url('https://fonts.googleapis.com/css?family=Heebo');
-
-  body{
-    font-family: 'Heebo', sans-serif;
-    width: 100vw;
+ 
+  /*CÓDIGO ALTERADO*/
+  @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto');
+ 
+ 
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
   }
 
   main{
     background: var(--cinza);
   }
+
+
 
   /*MENU*/
   header ul li{
@@ -31,6 +36,8 @@
   }
   /*MENU*/
 
+
+
   /*TROCA DE PÁGINAS USANDO DISPLAY*/
   #sobre,
   #blog,
@@ -39,7 +46,8 @@
   #blogview{
     display: none;
   }
-/*TROCA DE PÁGINAS USANDO DISPLAY*/
+  /*TROCA DE PÁGINAS USANDO DISPLAY*/
+
 
 
   /*TRANSIÇÃO CAPA*/
@@ -49,13 +57,6 @@
     margin-bottom: 1.5rem;
   }
 
-
-  
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  
   #slider{
     display: flex;
     position: relative;
@@ -88,17 +89,17 @@
   } 
   /*TRANSIÇÃO CAPA*/
 
+
+
   /*PRÉVIA DA DESCRIÇÃO*/
   .desc{
     margin-top: 3rem;
     padding: 3rem;
     border-radius: 5px;
   }
-  
-  .bg-white{
-    background: #d3d2d2;
-  }
   /*PRÉVIA DA DESCRIÇÃO*/
+
+
 
   /*FEED ATUALIZAÇÕES DA HOME*/
   .atualiza{
@@ -106,7 +107,6 @@
     margin-top: 8rem;
     background: #fff;
   }
-  
   
   #desc-img{
     width: 350px;
@@ -120,16 +120,12 @@
     width: 12rem; 
   }
   
-  .atualiza .card a{
-    border: none;
-  }
-  
   .titulo {
     color: var(--verde) !important;
   }
   
   .atualiza .card img{
-    width: 14rem;
+    width: 16rem;
   }
   
   .bv{
@@ -153,18 +149,23 @@
     background: var(--cinza);
   }
 
-
+  .bg-white{
+    background: #d3d2d2;
+  }
   /*FEED ATUALIZAÇÕES DA HOME*/
+
 
 
   /*SOBRE*/
   .descSobre p{
-    font-size: 22px;
+    font-size: 18px;
     color: #000;
     width: 65%;
     font-weight: 450;
   }
- /*SOBRE*/
+  /*SOBRE*/
+
+
 
   /*SERVIÇOS*/
   .box-serv{
@@ -186,6 +187,8 @@
     border-radius: 5px;
   }
   /*SERVIÇOS*/
+
+
 
    /*GENÉRICO*/
    .desc p{
@@ -214,6 +217,14 @@
     #slider div{
       margin-top: 14rem;
     }
+
+    .descSobre p{
+      font-size: 22px;
+    }
+
+    .desc-margem{
+      margin-left: 2rem;
+    }
   }
 
   .tituloPage{
@@ -228,6 +239,7 @@
   }
    /*GENÉRICO*/
 
+
    
    /*BLOG1*/
   .ultimas li{
@@ -237,8 +249,6 @@
   .ultimas .card{
     background: linear-gradient(rgba(23,154,148,0.2),rgba(23,154,148,0.2));
     width: 18rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   
   .ultimas a{
@@ -248,7 +258,6 @@
   
   .ultimas .box-blog a{
     color: #fff;
-    margin-top: none;
   }
   
   .ultimas .box-blog{
@@ -269,8 +278,6 @@
   .blog-informacoes{
     padding: 1rem;
     width: 100%;
-    border-right: none;
-    border-left: none;
   }
 
   .desc p{
@@ -317,14 +324,13 @@
       width: 18rem;
       margin-left: 1rem;
       margin-right: 1rem;
-    }
-    
+    }  
   }
-    /*BLOG 2*/ 
+  /*BLOG 2*/ 
 
 
 
-    /*CONTATO*/
+  /*CONTATO*/
   .formulario{
     background: linear-gradient(rgba(23,154,148,0.1),rgba(23,154,148,0.1));
   }
@@ -336,9 +342,6 @@
   
   .formulario input{
     border-bottom: solid 2px #179a94;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     background: none;
     border-radius: 0;
   }
@@ -346,6 +349,7 @@
   .formulario textarea{
     border: solid 2px var(--verde);
     background: none;  
+
   }
   
   ::placeholder{
@@ -359,17 +363,19 @@
   
   .email input{
     width: 40%;
-    border: none;
     padding-left: 1rem;
   }
    /*CONTATO*/
 
+
+   
    /*FOOTER*/
    .footer{
     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../view/img/capa.jpg);
   }
   
   .footer p{
+    font-family: 'Roboto', sans-serif;
     color: var(--white);
     width: 50%;
     font-weight: 450; 
